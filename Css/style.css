@@ -1,14 +1,14 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212; 
-    color: white;
+    color: whitesmoke;
     text-align: center;
 }
 
 nav {
-    background: #0000;
+    background: black;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ nav {
 }
 
 nav a {
-    color: #1DB954; /* Spotify Green */
+    color: royalblue; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -30,7 +30,7 @@ nav a {
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/* Home Page Text Box */
+/*index home page */ 
 .homepage {
     background: #282828;
     padding: 20px;
@@ -40,7 +40,7 @@ nav a {
     font-size: 1.2rem;
 }
 
-/* Playlist Pages */
+/* p1-4 */
 .playlist-img {
     width: 300px;
     height: 300px;
@@ -49,6 +49,7 @@ nav a {
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
+/*display for spotify block */ 
 .spotify-link {
     display: inline-block;
     margin: 20px 0;
@@ -66,7 +67,7 @@ nav a {
     background-color: #1ed760;
 }
 
-/* Star Rating System */
+/*Clicking Star Rating */
 .star-rating {
     font-size: 30px;
     cursor: pointer;
