@@ -25,12 +25,12 @@ nav a {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: #181818;
+    background: ##71797E;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/*index home page */ 
+/*index html home page */ 
 .homepage {
     background: #282828;
     padding: 20px;
@@ -49,7 +49,7 @@ nav a {
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
-/*display for spotify block */ 
+/* display for spotify block */ 
 .spotify-link {
     display: inline-block;
     margin: 20px 0;
@@ -75,12 +75,14 @@ nav a {
 }
 
 .star {
-    color: #555; /* Default gray */
+    /* gray before rating  */
+    color: #555; 
     transition: 0.2s;
 }
 
 .star.active {
-    color: #ffcc00; /* Gold */
+    /* color a*/ 
+    color: #DF1F2D; 
 }
 
 footer {
