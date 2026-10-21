@@ -25,9 +25,13 @@ nav a {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: ##71797E;
+    background: #282828;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.welcome-box{
+    margin-top: 20px;
 }
 
 /*index html home page */ 
